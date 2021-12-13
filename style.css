@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #eff2f7; }
+
+.principal {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(46, 44, 44, 0.1);
+  height: 50rem;
+  width: 46rem;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+  .principal__imagem {
+    background-color: chartreuse;
+    height: 35%; }
+  .principal img {
+    height: 100%; }
+  .principal__formulario {
+    background-color: cyan;
+    height: 55%; }
+  .principal__senha {
+    background-color: darkgoldenrod;
+    height: 10%; }
