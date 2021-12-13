@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -21,14 +22,15 @@ body {
     box-shadow: 0 1rem 3rem rgba(46, 44, 44, 0.1);
     height: 50rem;
     width: 46rem;
+    // margin: 35% auto;
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-size: 1.7rem;
 
     &__imagem {
-        background-color: chartreuse;
         height: 35%;
     }
 
@@ -39,6 +41,20 @@ body {
     &__formulario {
         background-color: cyan;
         height: 55%;
+
+        input {
+            padding: 0.7rem;
+            border-radius: 0.5rem;
+            border: 1px solid #ccc;
+            width: 70%;
+            height: 4rem;
+        }
+
+        label {
+            font-size: 2rem;
+            margin: 1rem 0;
+            display: block;
+        }
     }
 
     &__senha {
