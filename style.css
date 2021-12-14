@@ -13,67 +13,47 @@ body {
   box-sizing: border-box;
   background-color: #eff2f7; }
 
-.principal {
-  background-color: #fff;
-  border-radius: 1rem;
-  box-shadow: 0 1rem 3rem rgba(46, 44, 44, 0.1);
-  height: 50rem;
+.conteudo {
+  color: #4d4d4d;
+  height: 63rem;
   width: 46rem;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.3rem;
-  font-weight: 500; }
-  .principal label {
-    display: block;
-    margin-bottom: 1rem; }
-  .principal input {
-    padding: 0.7rem;
-    width: 100%;
-    font: inherit;
-    border-radius: 0.3rem;
-    border: 1px solid #ccc; }
+  position: relative;
+  margin: 10rem auto; }
+
+.principal {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 2rem rgba(126, 126, 126, 0.1);
+  height: 85%;
+  position: relative; }
   .principal__imagem {
-    height: 45%; }
-  .principal img {
-    height: 90%; }
+    height: 40%;
+    width: 95%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; }
+    .principal__imagem img {
+      width: 100%; }
   .principal__formulario {
-    height: 45%; }
-  .principal__senha {
-    height: 10%;
-    position: relative; }
+    height: 55%;
+    width: 95%;
+    background-color: wheat;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%); }
 
-.usuario {
-  height: 40%;
-  position: relative; }
-
-.senha {
-  height: 40%;
-  position: relative; }
-
-.botao {
-  height: 20%;
-  position: relative; }
-
-.teste {
+.rodape {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 85%; }
-
-.teste2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 85%;
-  height: 80%; }
-  .teste2 button {
-    height: 100%;
-    width: 100%;
-    color: white;
-    background-color: #556ee6;
-    border-color: #556ee6;
-    border-radius: 0.5rem; }
+  bottom: 0;
+  height: 15%;
+  width: 100%; }
+  .rodape p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: #3f3e3e;
+    font-weight: 400; }
