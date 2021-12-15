@@ -17,57 +17,100 @@ body {
 }
 
 .conteudo {
-    color: rgb(77, 77, 77);
-    height: 63rem;
+    height: 55rem;
     width: 46rem;
     position: relative;
-    margin: 10rem auto;
+    margin: 8rem auto;
 }
 
 .principal {
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 2rem rgba(126, 126, 126, 0.1);
-    height: 85%;
-    position: relative;
+    box-shadow: 0 1rem 4rem rgba(rgb(112, 112, 112), 0.3);
+    border-radius: 0.8rem;
 
     &__imagem {
-        height: 40%;
-        width: 95%;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-
+        width: 100%;
+        height: 30%;
         img {
             width: 100%;
         }
     }
 
     &__formulario {
-        height: 55%;
-        width: 95%;
-        background-color: wheat;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translateX(-50%);
+        position: relative;
+        padding: 0 2.5rem;
+
+        .usuario {
+            margin-bottom: 1.5rem;
+            &--label {
+                padding: 0.6rem 0;
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
+
+            &--input {
+                input {
+                    padding: 0.5rem;
+                    font-size: 1.6rem;
+                    border: 0.1rem solid rgb(112, 112, 112);
+                    border-radius: 0.3rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .senha {
+            margin-bottom: 3rem;
+            &--label {
+                padding: 0.6rem 0;
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
+
+            &--input {
+                input {
+                    padding: 0.5rem;
+                    font-size: 1.6rem;
+                    border: 0.1rem solid rgb(112, 112, 112);
+                    border-radius: 0.3rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .botao {
+            button {
+                padding: 0.5rem;
+                font-size: 1.5rem;
+                color: white;
+                background-color: cornflowerblue;
+                border-color: cornflowerblue;
+                border-radius: 0.3rem;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        &--esqueceu {
+            margin: 3rem 0;
+            font-size: 1.4rem;
+            padding-bottom: 2.5rem;
+            text-align: center;
+        }
     }
 }
 
 .rodape {
     position: absolute;
+    padding: 2rem;
     bottom: 0;
-    height: 15%;
     width: 100%;
+    font-size: 1.4rem;
+    font-weight: 400;
 
     p {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 1.2rem;
-        color: rgb(63, 62, 62);
-        font-weight: 400;
     }
 }
